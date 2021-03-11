@@ -71,7 +71,7 @@ public:
 
 	T dequeue()
 	{
-		int val = heap[0].first;
+		T val = heap[0].first;
 
 		if (length() == 2)
 		{
